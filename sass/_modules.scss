@@ -14,6 +14,9 @@ Modules are the reusable, modular parts of our design. They are the callouts, th
 
 .logo-area {
 
+  position:relative;
+  bottom:-15px;
+
   .logo {
 	 	@include replace-text("logo.svg");
 		//background:url("../images/logo.svg") no-repeat;
@@ -31,7 +34,7 @@ Modules are the reusable, modular parts of our design. They are the callouts, th
 	.logo-text {
 		font-family:Georgia,serif;
 		font-weight:normal;
-		margin:0 emCalc(10px) 0 0;
+		margin:0 emCalc(5px) 0 0;
 
 	}
 
@@ -56,7 +59,7 @@ Modules are the reusable, modular parts of our design. They are the callouts, th
 }
 
 ul.nav {
-	@include horizontal-list(10px);
+	@include horizontal-list(15px);
 	//padding:0 0 0 20px;
 	background:$theme-grey;
 	height:31px;
@@ -109,6 +112,10 @@ ul.nav {
 		}
 	}
 
+}
+
+.orbit-bullets {
+	display:none;
 }
 
 /* 

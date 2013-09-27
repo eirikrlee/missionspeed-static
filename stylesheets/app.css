@@ -5467,39 +5467,112 @@ table tfoot tr td {
   max-width: 800px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_base\.scss}line{font-family:\000031}}
+body {
+  background: url(../images/header-bg.png) 150% 40px #eeeeee;
+  background-repeat: no-repeat;
+}
+
 /*
 Layout rules divide the page into sections. Layouts hold one or more modules together.
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000312}}
 .top-bar-container {
   background: #353535;
   border-bottom: 5px solid #c0d23e;
-  margin-bottom: 1.5625em;
+  margin-bottom: 0.625em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000318}}
 .green-bar {
   background: #c0d23e;
   height: 5px;
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000324}}
 #slider {
   background: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000328}}
 section.main {
-  top: -18px;
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000333}}
+section.main .content {
+  background: url(../images/bg.png);
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000340}}
 #footer {
   min-height: 200px;
   background: #353535;
-  border-top: 5px solid #c0d23e;
+  border-top: 5px solid #a82743;
+  position: relative;
+  color: #fff;
+  padding: 20px 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000349}}
+#footer a {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000353}}
+#footer .footer-nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000358}}
+#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+  font-family: Georgia,serif;
+  color: #c0d23e;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000364}}
+#footer .social {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/_foundation-global\.scss}line{font-family:\00003184}}
+#footer .social:before, #footer .social:after {
+  content: " ";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/_foundation-global\.scss}line{font-family:\00003185}}
+#footer .social:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000360}}
+#footer .social li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000348}}
+#footer .social li:first-child, #footer .social li.first {
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000349}}
+#footer .social li:last-child {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000350}}
+#footer .social li.last {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_layout\.scss}line{font-family:\0000367}}
+#footer .social a {
+  color: #a82743;
+  font-size: 30px;
 }
 
 /*
@@ -5511,7 +5584,12 @@ Modules are the reusable, modular parts of our design. They are the callouts, th
   line-height: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000315}}
+.logo-area {
+  position: relative;
+  bottom: -15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000320}}
 .logo-area .logo {
   text-indent: -119988px;
   overflow: hidden;
@@ -5524,22 +5602,22 @@ Modules are the reusable, modular parts of our design. They are the callouts, th
   background-size: contain;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000328}}
 .logo-area .logo a {
   display: block;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000334}}
 .logo-area .logo-text {
   font-family: Georgia,serif;
   font-weight: normal;
-  margin: 0 0.625em 0 0;
+  margin: 0 0.3125em 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000341}}
 .logo-area .logo, .logo-area .logo-text {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000345}}
 .logo-area .slogan {
   font-size: 1.25em;
 }
@@ -5547,7 +5625,7 @@ Modules are the reusable, modular parts of our design. They are the callouts, th
 /*
  navigation
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000354}}
 .nav-container {
   background: #e15e32;
   position: relative;
@@ -5555,7 +5633,7 @@ Modules are the reusable, modular parts of our design. They are the callouts, th
   z-index: 1000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000361}}
 ul.nav {
   margin: 0;
   padding: 0;
@@ -5581,8 +5659,8 @@ ul.nav li {
   white-space: nowrap;
   display: inline;
   float: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000348}}
 ul.nav li:first-child, ul.nav li.first {
@@ -5596,38 +5674,38 @@ ul.nav li:last-child {
 ul.nav li.last {
   padding-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000368}}
 ul.nav li a {
   color: #fff;
   display: block;
   padding-top: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000375}}
 ul.nav li:first-child a {
   padding-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000380}}
 ul.nav li.active {
   border-bottom: 5px solid #a82743;
   height: 36px;
 }
 
 /*orbit overrites */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000392}}
 .orbit-container .orbit-slides-container li {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000395}}
 .orbit-container .orbit-slides-container li img {
   display: inline;
   visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003101}}
 .orbit-container .orbit-slides-container li.slider-img-1 {
   background: url(../images/banner1.png);
   background-size: cover;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003106}}
 .orbit-container .orbit-slides-container li .caption-text {
   font-size: 2em;
   margin: 0 0.625em 0 0;
@@ -5635,22 +5713,27 @@ ul.nav li.active {
   vertical-align: middle;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003117}}
+.orbit-bullets {
+  display: none;
+}
+
 /* 
 reusable components 
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003127}}
 .feature-box {
   background: #fff;
   -webkit-box-shadow: 0px 0px 5px rgba(53, 53, 53, 0.7);
   -moz-box-shadow: 0px 0px 5px rgba(53, 53, 53, 0.7);
   box-shadow: 0px 0px 5px rgba(53, 53, 53, 0.7);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003131}}
 .feature-box p {
   padding: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003136}}
 .theme-lred-btn {
   border-style: solid;
   border-width: 1px;
@@ -5681,7 +5764,7 @@ reusable components
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003139}}
 .theme-dred-btn {
   border-style: solid;
   border-width: 1px;
@@ -5712,7 +5795,7 @@ reusable components
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003142}}
 .theme-green-btn {
   border-style: solid;
   border-width: 1px;
@@ -5743,7 +5826,7 @@ reusable components
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003145}}
 .theme-orange-btn {
   border-style: solid;
   border-width: 1px;

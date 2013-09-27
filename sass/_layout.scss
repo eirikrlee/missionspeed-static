@@ -4,11 +4,15 @@ Layout rules divide the page into sections. Layouts hold one or more modules tog
 
 
 
+header {
+
+}
+
 
 .top-bar-container {
 	background: $theme-grey;
 	border-bottom: 5px solid $theme-green;
-	margin-bottom: emCalc(25px);
+	margin-bottom: emCalc(10px);
 }
 
 .green-bar {
@@ -22,13 +26,47 @@ Layout rules divide the page into sections. Layouts hold one or more modules tog
 }
 
 section.main {
-	top:-18px;
+	
 	position:relative;
+
+
+	.content {
+		background:url(../images/bg.png);
+		//background-position: 0 300px;
+	}
 }
 
 
 #footer {
 	min-height:200px;
 	background:$theme-grey;
-	border-top:5px solid $theme-green;
+	border-top:5px solid $theme-lred;
+	position:relative;
+	
+	color:#fff;
+	padding:20px 0 0 0;
+
+  a {
+  	color:#fff;
+  }
+
+	.footer-nav {
+		padding:0;
+		margin:0;
+		list-style:none;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: Georgia,serif;
+		color:$theme-green;
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+	.social {
+		@include horizontal-list(3px);
+
+		a {
+			color:$theme-lred;
+			font-size:30px;
+		}
+	}
 }
