@@ -5473,6 +5473,57 @@ body {
   background-repeat: no-repeat;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_base\.scss}line{font-family:\000038}}
+.btn {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 1.25em;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.75em;
+  padding-right: 1.5em;
+  padding-bottom: 0.8125em;
+  padding-left: 1.5em;
+  font-size: 1em;
+  background-color: #a82743;
+  border-color: #7f1d32;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003114}}
+.btn:hover, .btn:focus {
+  background-color: #7f1d32;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003125}}
+.btn:hover, .btn:focus {
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_base\.scss}line{font-family:\0000312}}
+.btn-lred {
+  background: #a82743;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_base\.scss}line{font-family:\0000314}}
+.btn-dred {
+  background: #5c323e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_base\.scss}line{font-family:\0000316}}
+.btn-green {
+  background: #c0d23e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_base\.scss}line{font-family:\0000318}}
+.btn-orange {
+  background: #e15e32;
+}
+
 /*
 Layout rules divide the page into sections. Layouts hold one or more modules together.
 */
@@ -5731,130 +5782,6 @@ reusable components
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003131}}
 .feature-box p {
   padding: 10px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003136}}
-.theme-lred-btn {
-  border-style: solid;
-  border-width: 1px;
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: bold;
-  line-height: 1;
-  margin: 0 0 1.25em;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 0.75em;
-  padding-right: 1.5em;
-  padding-bottom: 0.8125em;
-  padding-left: 1.5em;
-  font-size: 1em;
-  background-color: #a82743;
-  border-color: #7f1d32;
-  color: white;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003114}}
-.theme-lred-btn:hover, .theme-lred-btn:focus {
-  background-color: #7f1d32;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003125}}
-.theme-lred-btn:hover, .theme-lred-btn:focus {
-  color: white;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003139}}
-.theme-dred-btn {
-  border-style: solid;
-  border-width: 1px;
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: bold;
-  line-height: 1;
-  margin: 0 0 1.25em;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 0.75em;
-  padding-right: 1.5em;
-  padding-bottom: 0.8125em;
-  padding-left: 1.5em;
-  font-size: 1em;
-  background-color: #5c323e;
-  border-color: #3b2028;
-  color: white;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003114}}
-.theme-dred-btn:hover, .theme-dred-btn:focus {
-  background-color: #3b2028;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003125}}
-.theme-dred-btn:hover, .theme-dred-btn:focus {
-  color: white;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003142}}
-.theme-green-btn {
-  border-style: solid;
-  border-width: 1px;
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: bold;
-  line-height: 1;
-  margin: 0 0 1.25em;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 0.75em;
-  padding-right: 1.5em;
-  padding-bottom: 0.8125em;
-  padding-left: 1.5em;
-  font-size: 1em;
-  background-color: #c0d23e;
-  border-color: #a3b32a;
-  color: white;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003114}}
-.theme-green-btn:hover, .theme-green-btn:focus {
-  background-color: #a3b32a;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003125}}
-.theme-green-btn:hover, .theme-green-btn:focus {
-  color: white;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ericl\/Desktop\/projects\/missionspeed\/mission\/sass\/_modules\.scss}line{font-family:\00003145}}
-.theme-orange-btn {
-  border-style: solid;
-  border-width: 1px;
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: bold;
-  line-height: 1;
-  margin: 0 0 1.25em;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 0.75em;
-  padding-right: 1.5em;
-  padding-bottom: 0.8125em;
-  padding-left: 1.5em;
-  font-size: 1em;
-  background-color: #e15e32;
-  border-color: #c3471d;
-  color: white;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003114}}
-.theme-orange-btn:hover, .theme-orange-btn:focus {
-  background-color: #c3471d;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/zurb-foundation-4\.0\.8\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003125}}
-.theme-orange-btn:hover, .theme-orange-btn:focus {
-  color: white;
 }
 
 /*

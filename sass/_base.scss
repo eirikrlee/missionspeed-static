@@ -2,3 +2,17 @@ body {
 	background:url(../images/header-bg.png) 150% 40px #eeeeee;
 	background-repeat:no-repeat;
 }
+
+
+
+.btn {
+  @include button($button-med, $theme-lred,false,false,false);
+}  
+
+.btn-lred { background: $theme-lred;}
+
+.btn-dred { background: $theme-dred;}
+
+.btn-green { background: $theme-green;}
+
+.btn-orange { background: $theme-orange;}

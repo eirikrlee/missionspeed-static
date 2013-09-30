@@ -133,15 +133,4 @@ reusable components
 	}
 }
 
-.theme-lred-btn{
-	@include button($button-med,$theme-lred, false, false, false);
-}
-.theme-dred-btn{
-	@include button($button-med,$theme-dred, false, false, false);
-}
-.theme-green-btn{
-	@include button($button-med,$theme-green, false, false, false);
-}
-.theme-orange-btn{
-	@include button($button-med,$theme-orange, false, false, false);
-}
+
