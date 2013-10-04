@@ -10,6 +10,11 @@ Modules are the reusable, modular parts of our design. They are the callouts, th
 
 		}
 	}
+
+	.name img{
+    width:30px;
+    padding-top:1px;
+	}
 }
 
 .logo-area {
@@ -18,13 +23,12 @@ Modules are the reusable, modular parts of our design. They are the callouts, th
   bottom:-15px;
 
   .logo {
-	 	@include replace-text("logo.svg");
-		//background:url("../images/logo.svg") no-repeat;
+	 	//@include replace-text("logo.svg");
+		background:url("../images/logo.svg") no-repeat;
 		height:120px;
 		width:120px;
 		background-size:contain;
 		margin:0;
-		//text-indent:100px; 
 		a {
 			display:block;
 			height:100%;
@@ -65,10 +69,28 @@ ul.nav {
 	height:31px;
 	
   li {
+
+  	height:100%;
+  	border-right:1px solid #1C1C1C;
+  	border-left:1px solid #4F4F4F;
+
+  	&:first-child {
+  		border-right:none;
+  	}
+
+    &:last-child{
+    	border-right:none;
+    }
+
+		&:hover {
+			background:#2B2B2B;
+		}
+
     a {
   		color:#fff;
   		display: block;
   		padding-top:3px;
+
     }
 
     &:first-child {
@@ -124,7 +146,7 @@ reusable components
 
 //$default-box-shadow-color: #353535;
 
-.feature-box {
+.l-feature-box {
 	background:#fff;
 	@include single-box-shadow();
 

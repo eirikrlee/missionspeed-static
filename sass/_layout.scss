@@ -3,29 +3,19 @@ Layout rules divide the page into sections. Layouts hold one or more modules tog
 */
 
 
-
-header {
-
-}
-
-
 .top-bar-container {
 	background: $theme-grey;
 	border-bottom: 5px solid $theme-green;
 	margin-bottom: emCalc(10px);
 }
 
-.green-bar {
-	background:$theme-green;
-	height:5px;
-	clear:both;
-}
+
 
 #slider {
 	background:#000;
 }
 
-section.main {
+#main {
 	
 	position:relative;
 
@@ -35,6 +25,23 @@ section.main {
 		//background-position: 0 300px;
 	}
 }
+
+
+.l-feature-box {
+	background:#fff;
+	@include single-box-shadow();
+
+	p {
+		padding:10px;
+	}
+
+ .feature-image {
+ 	 width:100%;
+ }
+}
+
+
+
 
 
 #footer {

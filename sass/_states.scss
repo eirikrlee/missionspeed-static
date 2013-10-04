@@ -1,3 +1,44 @@
 /*
 State rules are ways to describe how our modules or layouts will look when in a particular state. Is it hidden or expanded? Is it active or inactive? They are about describing how a module or layout looks on screens that are smaller or bigger. They are also about describing how a module might look in different views like the home page or the inside page.
 */
+
+
+@media only screen and (max-width: 767px) {
+
+  ul.nav {
+
+  	height:auto;
+
+  	li {
+  		float:none;
+  		display:block;
+  		width:100%;
+  		border-right:0;
+  		border-left:0;
+  		padding:0;
+
+  		&.active {
+  			height:auto;
+  			border-bottom:0;
+  			background:$theme-lred;
+  		}
+
+
+
+  		a, &:first-child a {
+  			padding:emCalc(12px) 0 emCalc(12px) emCalc(11.6667px);
+  		}
+  	}
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+	body {
+		background:url(../images/header-bg.png) 150% 40px #eeeeee;
+		background-repeat:no-repeat;
+	}
+
+}
+
